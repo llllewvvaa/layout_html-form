@@ -3,18 +3,10 @@
   display: block;
 }
 
+.label + .label {
+  margin-top: 10px;
+}
+
 .fieldSet {
-  margin: 20px 2px;
-}
-
-.fieldSet:first-of-type {
-  margin-top: 0;
-}
-
-.fieldSet > :not(legend) {
-  margin-bottom: 10px;
-}
-
-.fieldSet > :last-child {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
