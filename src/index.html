@@ -21,35 +21,33 @@
       <fieldset class="fieldSet">
         <legend>Personal information</legend>
 
-        <label class="label" for="yourSurname">
+        <label class="label">
           Surname:
           <input
             class="input__field"
             type="text"
             name="surname"
             autocomplete="off"
-            id="yourSurname"
             minlength="2"
             maxlength="20"
             required
           >
         </label>
 
-        <label class="label" for="yourName">
+        <label class="label">
           Name:
           <input
             class="input__field"
             type="text"
             name="name"
             autocomplete="off"
-            id="yourName"
             minlength="2"
             maxlength="20"
             required
           >
         </label>
 
-        <label class="label" for="yourAge">
+        <label class="label">
           How old are You?
           <input
             class="input__field"
@@ -57,27 +55,24 @@
             min="1"
             max="100"
             value="12"
-            id="yourAge"
             required
           >
         </label>
 
-        <label class="label" for="fullDateOfBirth">
+        <label class="label">
           Full date of birth:
           <input
             class="input__field"
             type="date"
-            id="fullDateOfBirth"
             required
           >
         </label>
 
-        <label class="label" for="agreement">
+        <label class="label">
           I accept the term of the agreement
           <input
             class="input__field"
             type="checkbox"
-            id="agreement"
             required
           >
         </label>
@@ -86,25 +81,23 @@
       <fieldset class="fieldSet">
         <legend>Registration</legend>
 
-        <label class="label" for="yourEmail">
+        <label class="label">
           E-mail:
           <input
             class="input__field"
             type="email"
             name="email"
             placeholder="email@example.com"
-            id="yourEmail"
             required
           >
         </label>
 
-        <label class="label" for="password">
+        <label class="label">
           Password:
           <input
             class="input__field"
             type="password"
             name="password"
-            id="password"
             minlength="5"
             maxlength="25"
             required
@@ -115,9 +108,9 @@
       <fieldset class="fieldSet">
         <legend>An interesting fact about you!</legend>
 
-        <div class="loveCats">
-          Do you love cats?
-          <label class="label" for="optionYes">
+        <div>
+          <label class="loveCats__label" for="optionYes">
+            Do you love cats?
             <input
             class="input__field"
             type="radio"
@@ -127,7 +120,7 @@
             Yes
           </label>
 
-          <label class="label" for="optionNo">
+          <label class="loveCats__label" for="optionNo">
             <input
             class="input__field"
             type="radio"
@@ -138,24 +131,22 @@
           </label>
         </div>
 
-        <label class="label" for="color">
+        <label class="label">
           What is your favorite color?
           <input
             class="input__field"
             type="color"
             name="color"
-            id="color"
             required
           >
         </label>
 
-        <label class="label" for="timeToBed">
+        <label class="label">
           What time do you go to bed?
           <input
             class="input__field"
             type="time"
             name="tineToBed"
-            id="timeToBed"
             step="2"
             required
           >
@@ -176,13 +167,12 @@
           </select>
         </label>
 
-        <label class="label" for="ourWork">
+        <label class="label">
           How do you rate our work?
           <input
             class="input__field"
             type="range"
             name="ourWork"
-            id="ourWork"
             value="0"
             required
           >

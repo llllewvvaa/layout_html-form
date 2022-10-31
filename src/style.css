@@ -18,11 +18,3 @@
 .fieldSet > :last-child {
   margin-bottom: 0;
 }
-
-.submitBtn {
-  margin: 0;
-}
-
-.loveCats > label {
-  display: inline;
-}
