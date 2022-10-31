@@ -108,24 +108,22 @@
       <fieldset class="fieldSet">
         <legend>An interesting fact about you!</legend>
 
-        <div>
-          <label class="loveCats__label" for="optionYes">
+        <div class="loveCats">
+          <label class="loveCats__label">
             Do you love cats?
             <input
             class="input__field"
             type="radio"
             name="cats"
-            id="optionYes"
             >
             Yes
           </label>
 
-          <label class="loveCats__label" for="optionNo">
+          <label class="loveCats__label">
             <input
             class="input__field"
             type="radio"
             name="cats"
-            id="optionNo"
             >
             No
           </label>
@@ -153,11 +151,10 @@
         </label>
 
 
-        <label class="label" for="favoriteCars">
+        <label class="label">
           What are your favorite brand of cars?
           <select
             name="favoriteCars"
-            id="favoriteCars"
             multiple
             required
           >
@@ -182,19 +179,16 @@
       <fieldset class="fieldSet">
         <legend>Additional info:</legend>
 
-        <label class="label" for="comments">
+        <label class="label">
           Comments:
-          <textarea name="comments" id="comments"></textarea>
+          <textarea name="comments"></textarea>
         </label>
 
-        <label class="label" for="recommendUs">
+        <label class="label">
           Would you recommend us?
-          <select
-            name="recommendUs"
-            id="recommendUs"
-          >
+          <select name="recommendUs">
             <option value="yes">yes</option>
-            <option value="no">No</option>
+            <option value="no">no</option>
           </select>
         </label>
       </fieldset>
